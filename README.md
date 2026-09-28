@@ -42,10 +42,16 @@ swipl --version
 
 You should see the SWI-Prolog version number.
 
-### Step 3: Navigate to Project Folder
+### Step 3: Clone and Navigate to Project Folder
 
+First, clone the repository from GitHub:
 ```powershell
-cd "D:\ExpertSystem\garment-expert-system"
+git clone https://github.com/pererakhm/Garment-Expert-System.git
+```
+
+Then, navigate into the directory:
+```powershell
+cd Garment-Expert-System
 ```
 
 ### Step 4: Run the Application

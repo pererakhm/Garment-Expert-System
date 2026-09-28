@@ -41,10 +41,16 @@ If you see a version number (e.g., `SWI-Prolog version 9.x.x`), the installation
 
 Open **PowerShell** or **Command Prompt**.
 
-### 4.2 Navigate to Project Directory
+### 4.2 Clone and Navigate to Project Directory
 
+First, clone the repository from GitHub:
 ```
-cd "D:\ExpertSystem\garment-expert-system"
+git clone https://github.com/pererakhm/Garment-Expert-System.git
+```
+
+Then, navigate into the directory:
+```
+cd Garment-Expert-System
 ```
 
 ### 4.3 Start the Server
