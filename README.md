@@ -120,12 +120,11 @@ garment-expert-system/
 +-- README.md           # This file
 +-- USER_MANUAL.md      # Detailed user manual
 +-- TEST_CASES.md       # 11 test cases with actual testing results
-+-- REPORT.md           # Full project report
 +-- REFERENCES.md       # All source references
-`
-
+``n
 ## Note on Corrective Actions
 **Corrective actions are displayed only where a source explicitly documents a remedy. The system does not generate or infer corrective actions from the diagnostic rule itself.**
 
 For rules without documented remedies, the system displays: *"No source-backed corrective action was encoded for this rule."*
+
 
