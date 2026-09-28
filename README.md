@@ -1,15 +1,15 @@
-﻿# Garment Quality Diagnosis Expert System
+# Garment Quality Diagnosis Expert System
 
 A university expert system for diagnosing common garment sewing and quality defects. The system uses **28 source-backed rules** derived from published apparel quality-control and sewing-technology references.
 
 ## Key Features
 
-- **28 source-backed rules** â€” Every rule is traceable to a published source
-- **Forward chaining** â€” Data-driven inference from observations to conclusions
-- **Backward chaining** â€” Goal-driven inference from hypothesis to verification
-- **Explanation facility** â€” Full reasoning trace with rule IDs and source references
-- **Browser-based UI** â€” Professional web interface at `http://localhost:3050`
-- **Source transparency** â€” Every triggered rule displays its source document and URL
+- **28 source-backed rules** — Every rule is traceable to a published source
+- **Forward chaining** — Data-driven inference from observations to conclusions
+- **Backward chaining** — Goal-driven inference from hypothesis to verification
+- **Explanation facility** — Full reasoning trace with rule IDs and source references
+- **Browser-based UI** — Professional web interface at `http://localhost:3050`
+- **Source transparency** — Every triggered rule displays its source document and URL
 
 ## Knowledge Sources
 
@@ -106,7 +106,7 @@ http://localhost:3050
 
 ## Project Structure
 
-`	ext
+```text
 garment-expert-system/
 │
 ├── app.pl              # Main application entry point
@@ -121,7 +121,7 @@ garment-expert-system/
 ├── USER_MANUAL.md      # Detailed user manual
 ├── TEST_CASES.md       # 11 test cases with actual testing results
 └── REFERENCES.md       # All source references
-`
+```
 
 ## Note on Corrective Actions
 **Corrective actions are displayed only where a source explicitly documents a remedy. The system does not generate or infer corrective actions from the diagnostic rule itself.**
