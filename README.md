@@ -1,22 +1,22 @@
-# Garment Quality Diagnosis Expert System
+﻿# Garment Quality Diagnosis Expert System
 
 A university expert system for diagnosing common garment sewing and quality defects. The system uses **28 source-backed rules** derived from published apparel quality-control and sewing-technology references.
 
 ## Key Features
 
-- **28 source-backed rules** — Every rule is traceable to a published source
-- **Forward chaining** — Data-driven inference from observations to conclusions
-- **Backward chaining** — Goal-driven inference from hypothesis to verification
-- **Explanation facility** — Full reasoning trace with rule IDs and source references
-- **Browser-based UI** — Professional web interface at `http://localhost:3050`
-- **Source transparency** — Every triggered rule displays its source document and URL
+- **28 source-backed rules** â€” Every rule is traceable to a published source
+- **Forward chaining** â€” Data-driven inference from observations to conclusions
+- **Backward chaining** â€” Goal-driven inference from hypothesis to verification
+- **Explanation facility** â€” Full reasoning trace with rule IDs and source references
+- **Browser-based UI** â€” Professional web interface at `http://localhost:3050`
+- **Source transparency** â€” Every triggered rule displays its source document and URL
 
 ## Knowledge Sources
 
 | Source ID | Source Document | URL |
 |-----------|----------------|-----|
-| INFLIBNET_HSP08 | Apparel Quality Analysis � Common Defects in Sewing | [Link](https://ebooks.inflibnet.ac.in/hsp08/chapter/apparel-quality-analysis-common-defects-in-spreading-cutting-bundling-sewing-pressing-and-finishing-quality-control-in-apparel-production/) |
-| CITS_SEWING | CITS / Bharat Skills � Sewing Technology | [Link](https://bharatskills.gov.in/pdf/E_Books/CITS/431/English/Sewing%20technology%20(Trade%20Practical)%20-%20(Volume%20-%202).pdf) |
+| INFLIBNET_HSP08 | Apparel Quality Analysis — Common Defects in Sewing | [Link](https://ebooks.inflibnet.ac.in/hsp08/chapter/apparel-quality-analysis-common-defects-in-spreading-cutting-bundling-sewing-pressing-and-finishing-quality-control-in-apparel-production/) |
+| CITS_SEWING | CITS / Bharat Skills — Sewing Technology | [Link](https://bharatskills.gov.in/pdf/E_Books/CITS/431/English/Sewing%20technology%20(Trade%20Practical)%20-%20(Volume%20-%202).pdf) |
 
 ## Prerequisites
 
@@ -108,23 +108,22 @@ http://localhost:3050
 
 `	ext
 garment-expert-system/
-�
-+-- app.pl              # Main application entry point
-+-- knowledge_base.pl   # Domain facts (defects, conditions, values)
-+-- rules.pl            # 28 source-backed diagnostic rules
-+-- inference.pl        # Forward and backward chaining engines
-+-- explanation.pl      # Explanation facility with source references
-+-- ui.pl               # HTTP server and browser-based interface
-+-- runway.png          # Custom background image for the UI
-�
-+-- README.md           # This file
-+-- USER_MANUAL.md      # Detailed user manual
-+-- TEST_CASES.md       # 11 test cases with actual testing results
-+-- REFERENCES.md       # All source references
-``n
+│
+├── app.pl              # Main application entry point
+├── knowledge_base.pl   # Domain facts (defects, conditions, values)
+├── rules.pl            # 28 source-backed diagnostic rules
+├── inference.pl        # Forward and backward chaining engines
+├── explanation.pl      # Explanation facility with source references
+├── ui.pl               # HTTP server and browser-based interface
+├── runway.png          # Custom background image for the UI
+│
+├── README.md           # This file
+├── USER_MANUAL.md      # Detailed user manual
+├── TEST_CASES.md       # 11 test cases with actual testing results
+└── REFERENCES.md       # All source references
+`
+
 ## Note on Corrective Actions
 **Corrective actions are displayed only where a source explicitly documents a remedy. The system does not generate or infer corrective actions from the diagnostic rule itself.**
 
 For rules without documented remedies, the system displays: *"No source-backed corrective action was encoded for this rule."*
-
-
